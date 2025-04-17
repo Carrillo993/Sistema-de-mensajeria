@@ -1,0 +1,106 @@
+    * { 
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+      margin: 0;
+      height: 100vh;
+      font-family: sans-serif;
+    }
+
+    .container-flex {
+      display: flex;
+      height: 100%;
+    }
+
+    .sidebar {
+      width: 300px;
+      background-color: #f8f9fa;
+      display: flex;
+      flex-direction: column;
+      border-right: 1px solid #ddd;
+    }
+
+    .sidebar-header {  
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem;
+      border-bottom: 1px solid #ddd;
+    }
+
+    .sidebar-header .user-info {
+      display: flex;
+      align-items: center;
+    }
+
+    .sidebar-header img {
+        margin-right: 0.5rem;
+    }
+
+    .sidebar-header .icons {
+      display: flex;
+      gap: 0.5rem;
+    }
+
+    .btn-chat {
+        margin: 1rem;
+        background-color: #a491d2;
+        color: white;
+    }
+
+    .user-list {
+      flex-grow: 1;
+      overflow-y: auto;
+    }
+
+    .user-item {
+      display: flex;
+      align-items: center;
+      padding: 10px;
+      border-bottom: 1px solid #eee;
+      cursor: pointer;
+    }
+
+    .user-item img {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      margin-right: 10px;
+    }
+
+    .main-content {
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: #fff;
+      text-align: center;
+    }
+
+    i.fa-handshake-simple {
+        font-size: 48px;
+        color: #a491d2;  
+      }      
+
+    .icon-box {
+      background-color: #a491d2;
+      padding: 50px;
+      border-radius: 30px;
+      margin-bottom: 30px;
+    }
+
+    .title {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .subtitle {
+      font-size: 14px;
+      color: #555;
+      margin: 0% 10% 0% 10%;
+    }
+
+    
